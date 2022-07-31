@@ -53,8 +53,6 @@ btns.addEventListener('click', (e) => {
 
 
 
-
-
 function startTimer() {
 
     mlsecond++;
@@ -68,8 +66,6 @@ function startTimer() {
     if ((mlsecond > 9) && (mlsecond != 100)) {
         milsElement.innerText = mlsecond;
         localStorage.setItem('mlsec', milsElement.innerText)
-
-
 
     }
 
